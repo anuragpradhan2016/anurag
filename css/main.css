@@ -1,1 +1,166 @@
 
+#container {
+	width: 960px;
+	height: 1000px;	
+	background-color: #DCDCDC;
+	margin-right:auto;
+	margin-left:auto;		
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	
+}
+
+#header {
+	width: 960px;
+	height: 100px;	
+	background-color: #D3D3D3;
+
+
+	}
+
+#name {
+	width: 600px;
+	float: left;
+	text-align: center;
+	position: relative;
+	
+
+}
+
+h1 {
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+
+.active {
+	opacity: .8;
+
+}
+
+#tag {
+	width: 360px;
+	float:right;
+	overflow: hidden;
+	position: relative;
+	bottom: -30%;
+	right: -2%;
+
+}
+li.top {
+    float: left;   
+    position: relative; 
+    right: -40%;	
+  	text-align: right;
+  	font-family: Verdana, Geneva, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;      
+    }
+
+ li a {
+    display: block;  
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+	font-weight: 500;
+}
+
+#content {
+	width: 960px;
+	height: 900px;	
+	overflow: hidden;
+	background-color: ;	
+}
+
+#pic1 {
+	width: 960px;
+	height: 500px;	
+	text-align: center;	
+	position: relative;
+	bottom: -5%;
+	padding: 10px;
+
+	}
+
+#pic2 {
+	width: 600px;
+	height: 600px;
+	position: relative;
+	padding: 10px;	
+	right: -5%;
+	bottom: -5%;
+
+
+}
+
+#info1 {
+	width: 960px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: -10%;
+}
+
+#info2 {
+	float: right;
+	width: 400px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	left: -5%;
+	top: -62%;
+}
+li.logo {
+	float: left;   
+    position: relative;  	
+  	text-align: right;
+  	right: -15%;
+  	font-family: Verdana, Geneva, sans-serif;
+  	margin: 30px;
+}
+
+hr{   
+    margin: 0 ;
+   
+}
+
+#footer1 {
+clear: both;
+padding: 10px;
+background - color: black;
+text-align: right;
+position: relative;
+bottom: -9%;
+
+}
+
+#footer2 {
+clear: both;
+padding: 10px;
+background - color: black;
+text-align: right;
+position: relative;
+top: -22%;
+
+}
+}
+
+p {
+font-family: "Times New Roman", Times, serif;;
+}
+
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+.information {
+ font-family: Arial, Helvetica, sans-serif;
+}
